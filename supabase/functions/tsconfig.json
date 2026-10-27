@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "https://deno.land/std@0.168.0/http/server.ts": ["types/deno-http-server.d.ts"],
+      "https://esm.sh/@supabase/supabase-js@2": ["types/supabase-js.d.ts"],
+      "https://esm.sh/@supabase/supabase-js@2.80.0": ["types/supabase-js.d.ts"]
+    },
+    "lib": ["ES2020", "DOM"],
+    "allowJs": false,
+    "checkJs": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "types": [],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "types/**/*.d.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local secrets
+.env
+.env.*
+!.env.example
+# Dependencies and generated files
+node_modules/
+dist/
+.venv/
+
+
+# Temporary reports and test scripts
+eslint-results.json
+eslint-warnings.json
+lint-output.txt
+lint-results.txt
+tmp-build.txt
+tmp-lint.json
+tmp-lint.txt
+tmp-priority-lint.txt
+tmp-validation.txt
+tmp_gemini_test.py
+tmp_hook_audit.py
+tmp_missing_hooks.js
+tmp_probe_gemini.py
+tmp_probe_gemini_bearer.py
+# ZIP backups
+src.zip
+supabase.zip
+

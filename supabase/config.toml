@@ -1,0 +1,16 @@
+project_id = "freyqzycwrbbwckowoyj"
+
+[functions.analyze-civic-issue]
+verify_jwt = false
+
+[functions.route-civic-report]
+verify_jwt = false
+
+[functions.manage-admins]
+verify_jwt = false
+
+[functions.webauthn-register]
+verify_jwt = false
+
+[functions.webauthn-authenticate]
+verify_jwt = false
